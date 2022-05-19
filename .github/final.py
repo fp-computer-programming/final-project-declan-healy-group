@@ -9,7 +9,7 @@ while restart == 1:
   # this is the while loop for the question asking the player if they are ready?
   i = 0
   # this is code below prints the introduction/title of the quiz/game
-  print('WELCOME TO THE NOT GREATEST QUIZ GAME BY ME')
+  print('WELCOME TO THE QUIZ GAME BY ME')
   
   # input code for the user's name
   user_name = input('What is your User Name?')
@@ -61,20 +61,20 @@ while restart == 1:
     # Code defining whether player's input is right or wrong for question 2 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
     if response == "b":
-      print("Correct, here have a point")
+      print("Correct, have a point")
       score += 2
     else:
-      print("sorry incorrect, next time")
+      print("sorry incorrect")
     score -= 1
     print("your score is {}\n".format(score))
   
     # Start of question 3
   
-    print("Question 3: How long is Ninety Mile beach in Northland?\n")
-    print("a: 85 Miles")
-    print("b: 90 Miles")
-    print("c: 91 Miles")
-    print("d: 55 Miles\n")
+    print("Question 3: What year was saint Ignatious born?\n")
+    print("a: 1436")
+    print("b: 1450")
+    print("c: 1500")
+    print("d: 1491\n")
   
     # Code defining whether player's input is right or wrong for question 3 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
@@ -88,35 +88,35 @@ while restart == 1:
   
     # Start of question 4
   
-    print("Question 4: Where is the famous landmark L&P from?\n")
-    print("a: Hamilton ")
-    print("b: Lemon ")
-    print("c: Paeroa")
-    print("d: Tauranga\n")
+    print("What year was Saint Ignatious hit by a cannonball?\n")
+    print("a: 1536 ")
+    print("b: 1511 ")
+    print("c: 1521")
+    print("d: 1543\n")
   
     # Code defining whether player's input is right or wrong for question 4 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
     if response == "c":
-      print("Correct, here have a point")
+      print("Correct")
       score += 2
     else:
-      print("sorry incorrect, for the loss of your points")
+      print("sorry incorrect")
     score -= 1
     print("your score is {}\n".format(score))
   
   
     # Start of question 5
   
-    print("Question 5: What is rarity is the grenade launcher in Fortnite?\n")
-    print("a: Rare")
-    print("b: Epic")
-    print("c: Common and Rare")
-    print("d: Epic and Legendary\n")
+    print("Question 5: What year did Saint Ignatious die?\n")
+    print("a: 1563")
+    print("b: 1561")
+    print("c: 1554")
+    print("d: 1556\n")
   
     # Code defining whether player's input is right or wrong for question 5 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
-    if response == "d" or response == "a":
-      print("Correct, continue with the streak")
+    if response == "d":
+      print("Correct")
       score += 2
     else:
       print("sorry incorrect, don't get upset always can get free points for a next level")
@@ -131,9 +131,9 @@ while restart == 1:
       print ('your score is {}\n\n'.format(score))
       
         # Start of question 6
-      print("Question 6: It takes 16 seconds for the chug jug in Fortnite Battle Royale?\n")
-      print("a: True ")
-      print("b: False ")
+      print("Question 6: Where did Saint Ignatious die?\n")
+      print("a: France ")
+      print("b: Rome ")
   
       # Code defining whether player's input is right or wrong for question 6 and if right he gets a point else loses 1 point
       response = input("What is your answer to this question?\n")
@@ -141,17 +141,17 @@ while restart == 1:
         print("Correct, way to go")
         score += 2
       else:
-        print("sorry, not bad")
+        print("sorry incorrect")
       score -= 1
       print("your score is {}\n".format(score))
   
   
       # Start of question 7
   
-      print("Question 7: Which planet did Superman come from?\n")
-      print("a: Krypton ")
-      print("b: Kripton")
-      print("c: crypton")
+      print("Question 7: Where was Saint Ignatious born?\n")
+      print("a: Spain ")
+      print("b: Rome")
+      print("c: France")
   
       # Code defining whether player's input is right or wrong for question 7 and if right he gets a point else loses 1 point
       response = input("What is your answer to this question?\n")
@@ -165,45 +165,45 @@ while restart == 1:
   
       # Start of question 8
   
-      print("Question 8: In a standard pack of cards, which king is the only one to not have a moustache?\n")
-      print("a: king of heart")
-      print("b: king of spades")
-      print("c: king of clubs")
-      print("d: Queen of heart")
+      print("Question 8: Roughly how many students go to prep?\n")
+      print("a: 800")
+      print("b: 900")
+      print("c: 700")
+      print("d: 600")
       
       # Code defining whether player's input is right or wrong and if right then should he get a point or not
       response = input("What is your answer to this question?") 
       if response == "a":
-        print("Correct, don't stop!")
+        print("Correct!")
         score += 2
       else:
-        print("sorry, but next time")
+        print("sorry incorrect")
       score -= 1
       print("your score is {}\n".format(score))
   
-      print("Question 9: What is the standard unit of distance in the metric system?\n")
-      print("a: meter")
-      print("b: kilometer")
-      print("c: miles")
-      print("d: grams")
+      print("Question 9: What order did Saint Ignatious found?\n")
+      print("a: The Orthodox")
+      print("b: The jesuits")
+      print("c: The Catholic society")
+      print("d: The jesus gang")
   
       # Code defining whether player's input is right or wrong for question 9 and if right he gets a point else loses 1 point
       response = input("What is your answer to this question?\n")
-      if response == "a" or response == "b":
-        print("Correct, nice job here have a point")
+      if response == "b":
+        print("Correct, have a point")
         score += 2
       else:
-        print("sorry, next time")
+        print("sorry incorrect")
       score -= 1
       print("your score is {}\n".format(score))
   
       # Start of question 10
   
-      print("Question 10: What game features the terms love, deuce, match and volley?.\n")
-      print("a: Soccer ")
-      print("b: basketball")
-      print("c: Tennis")
-      print("d: badminton-maybe this one")
+      print("Question 10: What age did Saint Ignatious die at?.\n")
+      print("a: 72 ")
+      print("b: 61")
+      print("c: 64")
+      print("d: 69")
   
       # Code defining whether player's input is right or wrong for question 10 and if right he gets a point else loses 1 point
       response = input("What is your answer to this question?\n")
@@ -211,7 +211,7 @@ while restart == 1:
         print("Correct, nice job here have a point\n\n")
         score += 2
       else:
-        print("sorry, next time\n")
+        print("sorry, incorrect\n")
       score -= 1
       print('your score is {}'.format(score))
       
@@ -220,33 +220,33 @@ while restart == 1:
   
       #Stating that if the score is more than 8 then bonus question appears:
       if score>8 :
-        print('Bonus Question: What is the abbreviation of our school?')
-        print('a: Papa High')
-        print("b: Papatoetoe High School")
-        print("c: PHS")
-        print("d: None of the above\n")
+        print('Bonus Question: What is the capital of CT?')
+        print('a: New Haven')
+        print("b: Stamford")
+        print("c: Hartford")
+        print("d: Bridgeport\n")
   
       # Code defining whether player's input is right or wrong for question 1 and if right he gets a point else loses 1 point
       if score>8 :
         response = input("What is your answer to this question?\n")
       if response == "c":
-        print("Out-standing performance keep it up!\n")
+        print("Correct!\n")
         score += 2
       else:
-        print("No worries no one's perfect but we can be perfect\n")
+        print("Sorry, Incorrect\n")
       score -= 1
       print("your Final score is {}!\n\n".format(score))
         
       print("THANKS FOR PLAYING!")
   
       # asking the player's feedback
-      PLAYERS_FEEDBACK = input(" Please rate this quiz out of ten and tell us what we could improve on \n")
+      PLAYERS_FEEDBACK = input(" Please rate this quiz out of ten \n")
   
       play_again = input("Do you want to restart? Yes or No\n")
   
       # this code is asking the user if he wants to restart
       if play_again == "Yes" or play_again == "yes":
-          exec(open("./Python quiz by Tanish.py").read())
+          exec(open("./final.py").read())
       else:
           exit()
   
@@ -258,9 +258,9 @@ while restart == 1:
       
   else:
     # Start of question 6
-    print("Question 6: It takes 16 seconds for the chug jug in Fortnite Battle royale?\n")
-    print("a: True ")
-    print("b: False ")
+    print("Question 6: Where did Saint Ignatious die?\n")
+    print("a: France ")
+    print("b: Rome ")
   
     # Code defining whether player's input is right or wrong for question 6 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
@@ -275,10 +275,10 @@ while restart == 1:
   
     # Start of question 7
   
-    print("Question 7: Which planet did Superman come from?\n")
-    print("a: Krypton ")
-    print("b: Kripton")
-    print("c: crypton")
+    print("Question 7: Where was Saint Ignatious born?\n")
+    print("a: Spain ")
+    print("b: Rome")
+    print("c: France")
   
     # Code defining whether player's input is right or wrong for question 7 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
