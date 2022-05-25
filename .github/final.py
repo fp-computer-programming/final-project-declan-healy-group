@@ -292,55 +292,55 @@ while restart == 1:
   
     # Start of question 8
   
-    print("Question 8: In a standard pack of cards, which king is the only one to not have a moustache?\n")
-    print("a: king of heart")
-    print("b: knig of spades")
-    print("c: king of clubs")
-    print("d: queen of heart")
+    print("Question 8: Roughly how many students go to prep?\n")
+    print("a: 800")
+    print("b: 900")
+    print("c: 700")
+    print("d: 600")
       
     # Code defining whether player's input is right or wrong and if right then should he get a point or not
     response = input("What is your answer to this question?\n") 
     if response == "a":
-      print("Correct, don't stop!")
+      print("Correct!")
       score += 2
     else:
-      print("sorry, but next time")
+      print("sorry, incorrect")
       score -= 1
     print("your score is {}\n".format(score))
   
     # Start of question 9
   
-    print("Question 9: What is the standard unit of distance in the metric system?\n")
-    print("a: meter ")
-    print("b: kilometer")
-    print("c: miles")
-    print("d: grams")
+    print("Question 9: What order did Saint Ignatious found?\n")
+    print("a: The Orthodox")
+    print("b: The jesuits")
+    print("c: The Catholic society")
+    print("d: The jesus gang")
   
     # Code defining whether player's input is right or wrong for question 9 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
     if response == "a" or response == "b":
-      print("Correct, nice job here have a point")
+      print("Correct!")
       score += 2
     else:
-      print("sorry, next time")
+      print("sorry, incorrect")
     score -= 1
     print("your score is {}\n".format(score))
   
     # Start of question 10
   
-    print("Question 10: What game features the terms love, deuce, match and volley?\n")
-    print("a: Soccer ")
-    print("b: basketball")
-    print("c: Tennis")
-    print("d: badminton-maybe this one")
+    print("Question 10: What age did Saint Ignatious die at?.\n")
+    print("a: 72 ")
+    print("b: 61")
+    print("c: 64")
+    print("d: 69")
   
     # Code defining whether player's input is right or wrong for question 10 and if right he gets a point else loses 1 point
     response = input("What is your answer to this question?\n")
     if response == "c":
-      print("Correct, nice job here have a point")
+      print("Correct!")
       score += 2
     else:
-      print("sorry, next time\n")
+      print("sorry, incorrect\n")
     score -= 1
   
     print("your Final score is {}!\n\n".format(score))
